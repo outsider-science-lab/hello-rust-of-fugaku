@@ -3,9 +3,9 @@
 .PHONY: all
 
 all: FORCE
-	cargo build --release
+	bash -ex ./build.sh
 
 .PHONY: run
 run: FORCE
 	pjsub job.sh
-	pjstat
+	pjbstat
