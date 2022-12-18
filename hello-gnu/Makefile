@@ -8,4 +8,8 @@ all: FORCE
 .PHONY: run
 run: FORCE
 	pjsub job.sh
-	pjbstat
+	pjstat
+
+.PHONY: clean
+clean:
+	rm -rf target

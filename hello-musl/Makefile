@@ -9,3 +9,7 @@ all: FORCE
 run: FORCE
 	pjsub job.sh
 	pjstat
+
+.PHONY: clean
+clean:
+	rm -rf target
