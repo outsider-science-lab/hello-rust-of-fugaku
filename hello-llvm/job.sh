@@ -16,6 +16,6 @@
 #/usr/bin/llio_transfer <path_to_file>
 
 # https://www.fugaku.r-ccs.riken.jp/doc_root/ja/user_guides/lang_latest/CompileforCN/LLVM/index.html
-. /vol0004/apps/oss/llvm-v14.0.1/init.sh
+source /vol0004/apps/oss/llvm-v14.0.1/init.sh
 
 ./target/aarch64-unknown-linux-gnu/release/hello-world
