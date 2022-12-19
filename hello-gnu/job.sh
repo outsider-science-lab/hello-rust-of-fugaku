@@ -15,4 +15,8 @@
 # See https://www.fugaku.r-ccs.riken.jp/doc_root/en/user_guides/use_latest/LyeredStorageAndLLIO/TheSecondLayerStrage.html#common-file-distribution-function-llio-transfer
 #/usr/bin/llio_transfer <path_to_file>
 
+# https://www.fugaku.r-ccs.riken.jp/doc_root/ja/user_guides/lang_latest/CompileforCN/GCC_MPI/index.html
+export GCC="/vol0004/apps/oss/gcc-arm-11.2.1"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$GCC/aarch64-linux-gnu/lib:$GCC/aarch64-linux-gnu/lib64"
+
 ./target/aarch64-unknown-linux-gnu/release/hello-world
