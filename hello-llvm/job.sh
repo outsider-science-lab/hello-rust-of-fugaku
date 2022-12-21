@@ -3,8 +3,8 @@
 #PJM -L "rscgrp=small"
 #PJM -L "elapse=10:00"
 #PJM -g hp220271
+#PJM -x PJM_LLIO_GFSCACHE=/vol0004
 # See https://www.fugaku.r-ccs.riken.jp/doc_root/en/user_guides/use_latest/LyeredStorageAndLLIO/SelectAvailableVolumes.html
-##PJM -x PJM_LLIO_GFSCACHE=/vol000X
 
 # See https://www.fugaku.r-ccs.riken.jp/doc_root/en/user_guides/FugakuSpackGuide/intro.html#sourcing-environment-script
 #. /vol0004/apps/oss/spack/share/spack/setup-env.sh
@@ -16,6 +16,6 @@
 #/usr/bin/llio_transfer <path_to_file>
 
 # https://www.fugaku.r-ccs.riken.jp/doc_root/ja/user_guides/lang_latest/CompileforCN/LLVM/index.html
-source /vol0004/apps/oss/llvm-v14.0.1/init.sh
+source '/vol0004/apps/oss/llvm-v14.0.1/init.sh'
 
 ./target/aarch64-unknown-linux-gnu/release/hello-world
