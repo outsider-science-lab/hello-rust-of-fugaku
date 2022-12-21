@@ -4,7 +4,7 @@
 #PJM -L "elapse=10:00"
 #PJM -g hp220271
 #PJM -x PJM_LLIO_GFSCACHE=/vol0004
-# See https://www.fugaku.r-ccs.riken.jp/doc_root/en/user_guides/use_latest/LyeredStorageAndLLIO/SelectAvailableVolumes.html
+# See https://www.fugaku.r-ccs.riken.jp/doc_root/ja/user_guides/use_latest/LayeredStorageAndLLIO/SelectAvailableVolumes.html
 
 # See https://www.fugaku.r-ccs.riken.jp/doc_root/en/user_guides/FugakuSpackGuide/intro.html#sourcing-environment-script
 #. /vol0004/apps/oss/spack/share/spack/setup-env.sh
