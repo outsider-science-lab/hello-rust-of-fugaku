@@ -1,7 +1,7 @@
 use libc::{c_int, c_char};
 
 #[link(name = "mpi")]
-extern {
+extern "C" {
   fn MPI_Init(argc: *const c_int, argv: *const *const *const c_char) -> c_int;
   fn MPI_Finalize() -> c_int;
 }

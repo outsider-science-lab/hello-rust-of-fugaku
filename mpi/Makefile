@@ -12,4 +12,3 @@ build: all;
 run: FORCE
 	pjsub job.sh
 	pjstat
-
