@@ -1,4 +1,4 @@
-Hello world! of [Fugaku](https://www.r-ccs.riken.jp/fugaku/).
+Hello world! of [Fugaku](https://www.r-ccs.riken.jp/fugaku/), in Rust.
 
 # References
 
