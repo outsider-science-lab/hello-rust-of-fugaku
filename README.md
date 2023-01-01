@@ -8,3 +8,7 @@ Hello world! of [Fugaku](https://www.r-ccs.riken.jp/fugaku/), in Rust.
 ## Library
 
 - [spack/spack: A flexible package manager that supports multiple versions, configurations, platforms, and compilers.](https://github.com/spack/spack)
+
+# License
+
+GPL v3 or later.
